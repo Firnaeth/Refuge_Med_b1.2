@@ -240,7 +240,7 @@ try:
 
     if not df.empty:
         df_dispo = df[df['Statut'] != "Adopté"].copy()
-        st.title("🐾 Refuge Médéric")
+        st.title("L'Empreinte de Médéric")
         st.markdown("#### Association Animaux du Grand Dax")
 
         c1, c2 = st.columns(2)
