@@ -25,7 +25,7 @@ logo_b64 = get_base64_image(URL_LOGO_HD)
 st.set_page_config(
     page_title="Refuge Médéric - Association Animaux du Grand Dax", 
     layout="centered", 
-    page_icon=f"data:image/png;base64,{logo_b64}" if logo_b64 else "🐾"
+    page_icon="https://raw.githubusercontent.com/Firnaeth/Refuge_Med_b1.2/main/logo_officiel-2.png"
 )
 
 # --- 2. FONCTION PDF (MISE EN PAGE COLONNES + BANDES GRISES + RACE) ---
